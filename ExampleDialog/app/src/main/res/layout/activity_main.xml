@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="alert"
+    android:layout_weight="2"
+    android:layout_marginTop="15dp"
+    android:onClick="alert"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/datetv"
+        android:text="select date"
+        android:layout_weight="2"
+        android:layout_marginTop="15dp"
+        android:onClick="date"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="time"
+        android:layout_marginTop="15dp"
+        android:layout_weight="2"
+        android:onClick="time"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timetv"
+        android:layout_weight="2"
+        android:text="enter time"
+        android:layout_marginTop="15dp"/>
+
+
+</LinearLayout>
